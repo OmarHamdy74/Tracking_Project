@@ -9,7 +9,7 @@ st.set_page_config(page_title="Object Tracking App",
                    layout="wide",
                    page_icon=":guardsman:")
 
-st.title("Object Tracking with Background Subtraction")
+st.title("Object Tracking App")
 st.markdown("""
 This application allows you to upload a video file and perform object tracking using background subtraction. The original video frames and the processed frames with detected objects will be displayed side by side.
 """)
