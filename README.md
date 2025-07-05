@@ -2,7 +2,11 @@
 
 This project is a Streamlit application that performs object tracking on uploaded videos using background subtraction. The app displays the original video alongside the processed video with detected objects, and provides interactive controls for playback speed and rectangle color customization.
 
-![App Screenshot](![alt text](image.png))
+![App Screenshot](screenshot.png)
+
+> 🔗 **Live Demo**: [Click here to open the deployed project](https://trackingproject-x5abc3jnwh78xo5af9tgzu.streamlit.app/)
+
+---
 
 ## Features
 
@@ -14,6 +18,8 @@ This project is a Streamlit application that performs object tracking on uploade
 - **Realistic Progress & Duration Bar**: Updates a progress bar and displays remaining video duration.
 - **Stop Functionality**: Allows stopping the video processing, which clears progress indicators.
 
+---
+
 ## Prerequisites
 
 - Python 3.7 or higher
@@ -21,15 +27,18 @@ This project is a Streamlit application that performs object tracking on uploade
 - [OpenCV](https://opencv.org/)
 - [NumPy](https://numpy.org/)
 
+---
+
 ## Installation
 
 1. Clone the repository:
    ```bash
    git clone <repository-url>
    cd <repository-directory>
-   ```
+````
 
 2. (Optional) Create and activate a virtual environment:
+
    ```bash
    python -m venv venv
    venv\Scripts\activate    # On Windows
@@ -37,13 +46,17 @@ This project is a Streamlit application that performs object tracking on uploade
    ```
 
 3. Install the required packages:
+
    ```bash
    pip install streamlit opencv-python-headless numpy
    ```
 
+---
+
 ## Usage
 
 1. Run the Streamlit app:
+
    ```bash
    streamlit run Tracking_app.py
    ```
@@ -56,17 +69,23 @@ This project is a Streamlit application that performs object tracking on uploade
 
 5. Use the "Stop Video" button to halt processing at any time, which will also remove the progress and remaining time display.
 
+---
+
 ## Project Structure
 
-- **Tracking_app.py**: Main Python file containing the object tracking and Streamlit user interface code.
-- **README.md**: Project documentation.
-- **screenshot.png**: A screenshot of the application (update the file path or name as needed).
+* **Tracking\_app.py**: Main Python file containing the object tracking and Streamlit user interface code.
+* **README.md**: Project documentation.
+* **screenshot.png**: A screenshot of the application (make sure this file exists and is correctly named).
+
+---
 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+---
+
 ## Acknowledgments
 
-- [Streamlit Documentation](https://docs.streamlit.io/)
-- [OpenCV Documentation](https://docs.opencv.org/)
+* [Streamlit Documentation](https://docs.streamlit.io/)
+* [OpenCV Documentation](https://docs.opencv.org/)
