@@ -4,7 +4,7 @@ This project is a Streamlit application that performs object tracking on uploade
 
 ![App Screenshot](image.png)
 
-> 🔗 **Live Demo**: [Click here to open the deployed project](https://trackingproject-x5abc3jnwh78xo5af9tgzu.streamlit.app/)
+> 🔗 **Live Demo**: [Click here to open the deployed project](https://trackingproject-ohzx8lhx4si79ttxdpk6v8.streamlit.app/)
 
 ---
 
