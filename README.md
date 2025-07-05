@@ -2,7 +2,7 @@
 
 This project is a Streamlit application that performs object tracking on uploaded videos using background subtraction. The app displays the original video alongside the processed video with detected objects, and provides interactive controls for playback speed and rectangle color customization.
 
-![App Screenshot](screenshot.png)
+![App Screenshot](image.png)
 
 > 🔗 **Live Demo**: [Click here to open the deployed project](https://trackingproject-x5abc3jnwh78xo5af9tgzu.streamlit.app/)
 
